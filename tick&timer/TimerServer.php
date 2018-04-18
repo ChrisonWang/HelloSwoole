@@ -49,7 +49,7 @@ class TimerServer
     public function onWorkStart($serv, $work_id)
     {
         if($work_id == 0){
-            //$serv->tick(1000, array($this, 'onTick'), array('work_id'=> $work_id));
+            $serv->tick(1000, array($this, 'onTick'), array('work_id'=> $work_id));
         }
     }
 
