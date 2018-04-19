@@ -2,7 +2,7 @@
 /**
  *
  */
-class LengthServer
+class EOFServer
 {
     private $serv;
 
@@ -56,4 +56,4 @@ class LengthServer
     }
 }
 
-new LengthServer();
+new EOFServer();
